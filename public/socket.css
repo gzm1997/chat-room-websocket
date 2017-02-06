@@ -1,0 +1,17 @@
+.message {
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 86%;
+	overflow:auto;
+}
+
+.board {
+	margin: auto;
+	width: 30%;
+	height: 300px;
+	border:1px solid black;
+	/*background-color: red;*/
+}
