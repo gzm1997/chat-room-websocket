@@ -3,9 +3,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
     <title>聊天室</title>
     <link rel="stylesheet" href="socket.css">
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" />
+    <script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript"  src="jQuery.js"></script>
     <script src="/socket.io/socket.io.js"></script>
     <script type="text/javascript" src="socket.js"></script>
@@ -17,8 +18,8 @@
     <div class="board">
         <div class="name"></div>
         <div class="message"></div>
-        <input type="text" id="toSend" size="45">
-        <button id="submit">发送</button>        
+        <input type="text" id="toSend" class="form-control">
+        <button class="btn" id="submit">发送</button>        
     </div>
 
     
