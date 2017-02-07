@@ -33,7 +33,7 @@ websocket很方便快捷的一种使用方式
         //
     })
     
-客户端促发服务端的systemIn事件：
+客户端触发服务端的systemIn事件：
 
     socket.emit('systemIn', username);
     
