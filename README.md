@@ -3,12 +3,12 @@
 ------
 
 
-### 使用方法：
+### 使用方法（前提是安装了node）：
 
 本地使用：下载本项目到本地，解压，进入项目目录，输入npm install,等待安装完成，输入npm start,在浏览器中打开localhost:8000
 
 服务器使用：
-在public的socket.js文件中找到一下代码：
+在public的socket.js文件中找到以下代码：
 
     var socket = io.connect('http://localhost:8000');
 
