@@ -8,11 +8,29 @@
 	overflow:auto;
 }
 
+.whole {
+	margin: auto;	
+	width: 80%;
+	height: 350px;
+	background-color: #f0f0f0;
+}
+
+.allUsers {
+	width: 25%;
+	height: 350px;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	float: left;
+	overflow:auto;
+}
+
 .board {
-	margin: auto;
-	width: 60%;
+	width: 75%;
 	height: 350px;
 	border:1px solid black;
+	float: left;
 	/*background-color: red;*/
 }
 
@@ -22,4 +40,14 @@ button {
 
 .name {
 	font-size: 25px;
+}
+
+.sysMessage {
+	color: blue;
+}
+
+body {
+    font-family: Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+    background: url(//res.wx.qq.com/a/wx_fed/webwx/res/static/img/2zrdI1g.jpg) no-repeat 50%;
+    background-size: cover;
 }
