@@ -44,3 +44,20 @@ websocket很方便快捷的一种使用方式
 	})
 	
 不管是服务器还是客户端，socket.io提供两个核心方法：emit方法用于发送消息，on方法用于监听对方发送的消息。以此类推，其他不赘言。
+
+##demo
+最后奉上本次的demo地址：[聊天室][1]
+
+
+  
+  ![用户1][2]
+
+![用户2][3]
+
+![匿名用户3][4]
+
+
+  [1]: http://139.199.177.254:8000/
+  [2]: https://github.com/15331094/talk_room_websocket/blob/master/screenshot/filehelper_1486444620706_23.png?raw=true
+  [3]: https://github.com/15331094/talk_room_websocket/blob/master/screenshot/filehelper_1486444611812_76.png?raw=true
+  [4]: https://github.com/15331094/talk_room_websocket/blob/master/screenshot/filehelper_1486444580073_52.png?raw=true
