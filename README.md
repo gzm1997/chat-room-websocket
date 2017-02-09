@@ -12,7 +12,7 @@
 
     var socket = io.connect('http://localhost:8000');
 
-把上面的localhost改为你服务器的ip地址即可，剩下的跟本地操作无异
+把上面的localhost改为你服务器的ip地址即可(ip访问情况下改为ip地址，域名访问改为你的域名，但是注意 https://yourdomain *  访问目前是不行的,需要是http，原因恐怕就是io.connect('http://localhost:8000') 里面使用的是http)，剩下的跟本地操作无异
 
 ------
 
