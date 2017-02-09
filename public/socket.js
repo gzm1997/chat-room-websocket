@@ -26,6 +26,7 @@ $(document).ready(function() {
 		if($("#toSend").val() != "") {
 			socket.emit('news', {user: username, message: $("#toSend").val()});
 			scrollToBottom()
+			$("#toSend").val("")
 		}
 	})
 	//回车发送信息
@@ -33,6 +34,7 @@ $(document).ready(function() {
 		if(e.which == 13 && $("#toSend").val() != "") {
 			socket.emit('news', {user: username, message: $("#toSend").val()});
 			scrollToBottom()
+			$("#toSend").val("")
 		}
 	})
 	//接受服务端发送的信息
@@ -42,6 +44,5 @@ $(document).ready(function() {
 			mes.addClass("sysMessage");
 		}
    		$(".message").append(mes);
-   		$("#toSend").val("")
 	});
 });
